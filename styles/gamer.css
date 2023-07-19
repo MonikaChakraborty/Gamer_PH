@@ -251,7 +251,7 @@ border: 0;
 
 .online-games-banner{
     background-color: #FFF;;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     gap: 40px;
     margin-left: 130px;
@@ -259,15 +259,15 @@ border: 0;
     /* padding-top: 130px; */
 }
 .online-games-banner-content{
-    border: 1px solid salmon;
-    margin-left: 80px;
-
-    /* padding-top: 130px; */
+    /* border: 1px solid salmon; */
+    margin-left: 70px;
+    margin-top: 90px;
 }
 .online-games-banner-title{
     text-align: right;
     font-size: 48px;
     font-weight: 700;
+    padding-top: 70px;
 }
 
 .txt-play-instantly{
@@ -285,29 +285,25 @@ border: 0;
 }
 
 .online-games-banner-img{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 500px;
 }
 .online-games-banner-img>img{
     height: 90%;
     margin-left: 120px;
-    
-    border: 1px solid peru;
 }
 .below-img img{
     border-radius: 8px;
-/* border: 10px solid #FFF; */
-margin: 0;
-position: relative;
-bottom: 230px;
-width: 250px;
-height: 300px;
+    margin: 0;
+    position: relative;
+    bottom: 230px;
+    width: 250px;
+    height: 300px;
 }
 
 /* game-names-section" */
 
 .game-names-container-1{
-    border: 1px solid peru;
     display: flex;
     justify-content: space-around;
     margin-top: 130px;
@@ -323,19 +319,20 @@ height: 300px;
 .game-names{
     border-radius: 50px;
     background: #FFF;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* margin-right: 38px; */
     display: flex;
-    width: 200px ;
+    /* width: 200px ; */
     height: 70px;
-    /* gap: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .game-names img{
     margin-top: 14px;
     margin-left: 5px;
     margin-right: 5px;
-    height: 50%;
+    height: 60%;
 }
 
 .game-names-title{
@@ -347,21 +344,23 @@ height: 300px;
 }
 
 .adventure, .educational{
-    width: 240px;
-    border: 1px solid salmon;
+    /* width: 240px; */
+    /* border: 1px solid salmon; */
 }
 
 .game-names-container-2{
-    border: 1px solid peru;
+    /* border: 1px solid peru; */
     display: flex;
     justify-content: space-around;
     /* gap: 20px; */
     /* align-items: center; */
     /* margin-left: 30px;
     margin-right: 30px; */
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
     margin-bottom: 118px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* footer */
@@ -423,7 +422,7 @@ font-weight: 600;
 }
 
 .policy-container-last-para{
-    padding-bottom: 130px;
+    padding-bottom: 125px;
 }
 
 /* responsive media rule styles */
