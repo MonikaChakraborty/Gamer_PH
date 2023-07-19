@@ -1,0 +1,546 @@
+/* Work sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.txt-primary{
+    color: #F948B2;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;  
+    max-width: 1000px;
+    margin: 0 auto;  
+
+}
+
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img{
+    width: 80px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.logo-container p{
+    margin-top: 12px;
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-items-container {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us-btn{
+    margin-right: 8px;
+}
+
+.follow-us-container{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    width: 250px;
+}
+.follow-us-icons img{
+    width: 34px;
+    height: 2.3rem;
+    margin-left: 8px
+}
+
+
+
+/* header styles */
+
+.header-container{
+    /* border: 1px solid rgb(205, 63, 63); */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 120px;
+    /* gap: 20px; */
+}
+.play-goat-container{
+    /* border: 1px solid rgb(19, 10, 10); */
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    margin-left: 50px;
+
+}
+.play-goat-content{
+    /* border: 1px solid blue; */
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    /* margin-right: 50px; */
+    margin-left: 50px;
+    margin-top: 148px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.play-goat-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.play-goat-main-title{
+    
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.play-goat-content p{
+    color: #534C64;
+    /* text-align: center; */
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding-right: 50px;
+    margin-bottom: 17px;
+}
+
+.btn-container{
+
+    margin-top: 30px;
+    ;
+    display: inline-flex;
+    /* padding: 21px 40px; */
+    gap: 18px;
+}
+
+.btn-sign-in{
+padding: 15px 30px;
+border-radius: 48px;
+background: #FF42A5;
+border: 0;
+}
+
+.btn-go-rogue{
+    padding: 15px 30px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: 0;
+    }
+
+.play-goat-content button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header-img-container{
+    /* margin-top: 30px; */
+    background-color: #FFF;
+    /* margin-right: 150px; */
+    /* border: 1px solid peru; */
+}
+
+.header-img-container img{
+
+    height: 580px;
+    width: 550px; 
+    /* height: 500px;
+    width: 520px; */
+}
+
+
+/* main */
+
+/* Online games section */
+
+.online-games-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.txt-funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;-webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-games-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+/* Online Games Card */
+
+.online-games-card-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+.online-games-card-container img{
+    width: 250px;
+    height: 300px;
+}
+.online-games-card-container .card{
+    border-radius: 16px;
+}
+
+.online-games-card-title-container{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* width: 342px; */
+    gap: 20px;
+    padding-left: 120px;
+    padding-right: 122px;
+    margin-bottom: 120px;
+}
+
+.online-games-card-title{
+    width: 700px;
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* online-games-banner */
+
+.online-games-banner{
+    background-color: #FFF;;
+    border: 1px solid red;
+    display: flex;
+    gap: 40px;
+    margin-left: 130px;
+    margin-right: 120px;
+    /* padding-top: 130px; */
+}
+.online-games-banner-content{
+    border: 1px solid salmon;
+    margin-left: 80px;
+
+    /* padding-top: 130px; */
+}
+.online-games-banner-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.txt-play-instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;-webkit-text-fill-color: transparent;
+}
+
+.online-games-banner-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.online-games-banner-img{
+    border: 1px solid blue;
+    height: 500px;
+}
+.online-games-banner-img>img{
+    height: 90%;
+    margin-left: 120px;
+    
+    border: 1px solid peru;
+}
+.below-img img{
+    border-radius: 8px;
+/* border: 10px solid #FFF; */
+margin: 0;
+position: relative;
+bottom: 230px;
+width: 250px;
+height: 300px;
+}
+
+/* game-names-section" */
+
+.game-names-container-1{
+    border: 1px solid peru;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    /* gap: 20px; */
+    /* align-items: center; */
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 28px;
+}
+
+.game-names{
+    border-radius: 50px;
+    background: #FFF;
+    border: 1px solid blue;
+    /* margin-right: 38px; */
+    display: flex;
+    width: 200px ;
+    height: 70px;
+    /* gap: 10px; */
+}
+
+.game-names img{
+    margin-top: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50%;
+}
+
+.game-names-title{
+    /* text-align: center; */
+    align-self: center;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.adventure, .educational{
+    width: 240px;
+    border: 1px solid salmon;
+}
+
+.game-names-container-2{
+    border: 1px solid peru;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+    /* align-items: center; */
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 118px;
+}
+
+/* footer */
+.footer{
+    background: #0B0223;
+}
+.footer-container{
+    padding-top: 125px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer-title{
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-container > img{
+    width: 100px;
+}
+.footer-contents{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 70px;
+    gap: 55px;
+}
+.footer-contents-description{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+
+.icons-container{
+    /* border: 1px solid peru; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+.policy-container-contents{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 28px;
+}
+
+.policy-container p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.policy-container-last-para{
+    padding-bottom: 130px;
+}
+
+/* responsive media rule styles */
+
+/* Mobile-Large */
+
+
+@media (max-width: 425px) {
+
+    /* navbar */
+    nav{
+        /* align-items: center; */
+        /* border: 1px solid rgb(18, 224, 35); */
+        width: 715px;
+    }
+
+    .nav-container {
+        /* border: 1px solid peru;
+        width: 400px; */
+        /* margin-left: 180px; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-container {
+        width: 100%;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    .nav-items-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+    .nav-items-container a {
+
+        margin-bottom: 30px;
+    }
+    .follow-us-container {
+        /* border: 1px solid peru; */
+        margin-top: 10px;
+        display: flex;
+    }
+    .follow-us-btn {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .follow-us-icons {
+        /* margin-top: 8px; */
+        justify-content: center;
+    }
+    .follow-us-icons img {
+        margin-left: 10px;
+    }
+
+
+    /* header */
+
+    .header{
+        /* margin-left: 350px; */
+        display: flex;
+        flex-direction: column;
+        /* width: 750px; */
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .play-goat-container{
+        /* border: 1px solid rgb(6, 1, 29); */
+        margin-left: 330px;
+        /* width: 500px; */
+        justify-content: center;
+        align-self: center;
+        /* padding-left: 80px; */
+    }
+    .play-goat-content{
+        /* border: 1px solid blue; */
+        /* margin-left: 100px;
+        margin-top: 148px; */
+        margin-left: 100px;
+        margin-bottom: 80px;
+    }
+
+    }
+
+
+/* Tablet Screen */
+@media (min-width: 426px) and (max-width: 768px) {
+    .nav-container{
+        /* padding: 12px; */
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .logo-container {
+        /* border: 1px solid salmon; */
+        margin-right: 530px;
+        
+    }
+    .nav-items-container {
+        /* border: 1px solid blue; */
+        width: 600px;
+        /* padding-left: 50px;
+        padding-right: 200px; */
+    }
+
+    .nav-items-container a{
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .follow-us-icons img {
+        width: 24px;
+        height: 24px;
+    }
+}
