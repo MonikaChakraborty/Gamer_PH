@@ -544,26 +544,21 @@ nav{
     }
 
     .play-instantly-banner-img{
-        /* border: 1px solid red; */
         margin-right: 100px;
     }
 
     /* game-names */
     .game-names-full-container{
-        /* flex-wrap: wrap; */
-        /* border: 1px solid red; */
         width: 700px;
         margin-left: 100px;
     }
     .game-names-container-1{
-        /* border: 1px solid peru;  */
     }
 
     /* footer */
 
     .footer{
         width: 900px;
-        /* height: 50%; */
     }
 }
 
@@ -596,7 +591,7 @@ nav{
     /* online games */
 
     .online-games{
-        width: 1000px;
+        width: 1200px;
         margin-left: 100px;
     }
     .online-games-card-title-container{
@@ -625,12 +620,13 @@ nav{
 
     /* game names */
     .game-names-full-container{
-        width: 1000px;
+        /* border: 1px solid green; */
+        width: 1200px;
         margin-left: 100px;
     }
 
     /* footer */
     .footer{
-        width: 1200px;
+        width: 1400px;
     }
 }
