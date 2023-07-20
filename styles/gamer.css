@@ -506,13 +506,25 @@ nav{
  
     .online-games-card-container{
         flex-direction: column;
-        /* border: 1px solid red; */
+        align-items: center;
         width: 700px;
         padding-left: 220px;
     }
 
+    .card{
+        margin-bottom: 20px;
+    }
     .online-games-card-title-container{
-        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 20px;
+    }
+    .online-games-card-title{
+
+        width: auto;
+        text-align: center;
     }
 
     /* play-instantly-banner */
@@ -564,21 +576,61 @@ nav{
     }
     .logo-container {
         /* border: 1px solid salmon; */
-        margin-right: 530px;
+        margin-right: 510px;
         
     }
     .nav-items-container {
-        /* border: 1px solid blue; */
         width: 600px;
+        padding-right: 12px;
     }
 
     .nav-items-container a{
         font-size: 16px;
         margin-right: 15px;
     }
-
     .follow-us-icons img {
         width: 24px;
         height: 24px;
+    }
+
+    /* online games */
+
+    .online-games{
+        width: 1000px;
+        margin-left: 100px;
+    }
+    .online-games-card-title-container{
+        width: 1200px;
+        gap: 80px;
+    }
+
+    .online-games-card-title p.card-1{
+        margin-left: -70px ;
+        width: 220px;
+    }
+
+    .online-games-card-title p.card-2{
+        margin-left: -100px ;
+        width: 200px;
+    }
+
+    .online-games-card-title p.card-3{
+        margin-left: -130px;
+        width: 200px;
+    }
+    .online-games-card-title p.card-4{
+        margin-left: -160px;
+        width: 200px;
+    }
+
+    /* game names */
+    .game-names-full-container{
+        width: 1000px;
+        margin-left: 100px;
+    }
+
+    /* footer */
+    .footer{
+        width: 1200px;
     }
 }
