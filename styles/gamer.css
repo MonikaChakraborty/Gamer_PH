@@ -441,6 +441,11 @@ nav{
         /* border: 1px solid peru; */
         width: 900px;
     }
+
+    .logo-container{
+        width: 100%;
+        justify-content: center;
+    }
     .nav-container {
         padding-top: 100px;
         /* border: 1px solid blue; */
@@ -465,7 +470,7 @@ nav{
     .follow-us-container{
         /* border: 1px solid pink; */
         width: 40%;
-        margin-left: 200px;
+        margin-left: 250px;
     }
 
 
@@ -480,6 +485,11 @@ nav{
         flex-direction: column;
         margin-left: 90px;
         margin-right: 90px;
+    }
+
+    .play-goat-container{
+        width: 500px;
+        padding-left: 100px;
     }
 
     .play-goat-content{
