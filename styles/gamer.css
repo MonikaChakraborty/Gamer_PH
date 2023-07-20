@@ -443,7 +443,7 @@ nav{
     }
     .nav-container {
         padding-top: 100px;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         flex-direction: column;
         padding-bottom: 60px;
         padding-left: 50px;
@@ -498,7 +498,7 @@ nav{
 
 
     .online-games{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         width: 800px;
         margin-left: 70px;
         padding-bottom: 0;
@@ -506,7 +506,7 @@ nav{
  
     .online-games-card-container{
         flex-direction: column;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 700px;
         padding-left: 220px;
     }
