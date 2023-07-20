@@ -439,7 +439,7 @@ nav{
 
     nav{
         /* border: 1px solid peru; */
-        width: 850px;
+        width: 900px;
     }
     .nav-container {
         padding-top: 100px;
@@ -480,11 +480,8 @@ nav{
         /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-    }
-
-    .play-goat-container{
-        /* border: 1px solid red; */
-        margin-left: 150px;
+        margin-left: 90px;
+        margin-right: 90px;
     }
 
     .play-goat-content{
@@ -495,24 +492,28 @@ nav{
         margin-bottom: 30px;
     }
     .header-img-container{
-    /* border: 1px solid red; */
-    margin: 80px;
-    /* width: 100%; */
+        /* border: 1px solid red; */
+        margin: 80px;
     }
+
+
     .online-games{
-    border: 1px solid red;
-    width: 800px;
-    margin-left: 70px;
+        border: 1px solid blue;
+        width: 800px;
+        margin-left: 70px;
+        padding-bottom: 0;
     }
  
     .online-games-card-container{
-    flex-direction: column;
-    border: 1px solid red;
-    width: 700px;
-    padding-left: 220px;
+        flex-direction: column;
+        border: 1px solid red;
+        width: 700px;
+        padding-left: 220px;
     }
 
-
+    .online-games-card-title-container{
+        margin-bottom: 0;
+    }
 
     /* play-instantly-banner */
 
@@ -523,6 +524,8 @@ nav{
     }
     .play-instantly-banner-content{
         /* border: 1px solid peru;  */
+        margin-top: 0;
+
         text-align: center;
         justify-content: center;
         margin-right: 200px;
@@ -535,9 +538,9 @@ nav{
 
     /* game-names */
     .game-names-full-container{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         /* border: 1px solid red; */
-        width: 600px;
+        width: 700px;
         margin-left: 100px;
     }
     .game-names-container-1{
@@ -547,7 +550,7 @@ nav{
     /* footer */
 
     .footer{
-        width: 800px;
+        width: 900px;
         /* height: 50%; */
     }
 }
