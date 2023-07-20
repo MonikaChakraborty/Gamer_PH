@@ -515,12 +515,36 @@ nav{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0;
-        gap: 20px;
     }
-    .online-games-card-title{
-
+    /* .online-games-card-title{
         width: auto;
+        text-align: center;
+        border: 1px solid blue;
+    } */
+
+    .card-1{
+        margin-top: -1016px;
+        margin-left: 120px;
+        width: 480px;
+        text-align: center;
+    }
+
+    .card-2{
+        margin-top: -710px;
+        margin-left: 120px;
+        width: 480px;
+        text-align: center;
+    }
+    .card-3{
+        margin-top: -410px;
+        margin-left: 120px;
+        width: 480px;
+        text-align: center;
+    }
+    .card-4{
+        margin-top: -90px;
+        margin-left: 120px;
+        width: 480px;
         text-align: center;
     }
 
