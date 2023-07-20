@@ -472,12 +472,10 @@ nav{
     /* header */
 
     .header{
-        /* border: 1px solid peru; */
         width: 600px;
     }
 
     .header-container{
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         margin-left: 90px;
@@ -492,13 +490,12 @@ nav{
         margin-bottom: 30px;
     }
     .header-img-container{
-        /* border: 1px solid red; */
         margin: 80px;
     }
 
+    /* online games */
 
     .online-games{
-        /* border: 1px solid blue; */
         width: 800px;
         margin-left: 70px;
         padding-bottom: 0;
@@ -531,13 +528,10 @@ nav{
 
     .play-instantly-banner{
         flex-direction: column;
-        /* border: 1px solid red; */
         width: 700px;
     }
     .play-instantly-banner-content{
-        /* border: 1px solid peru;  */
         margin-top: 0;
-
         text-align: center;
         justify-content: center;
         margin-right: 200px;
@@ -565,18 +559,22 @@ nav{
 
 /* Tablet Screen */
 @media (min-width: 426px) and (max-width: 768px) {
+
+    .nav{
+        width: 1000px;
+    }
     .nav-container{
         padding-left: 12px;
         padding-right: 12px;
     }
     .logo-container {
-        /* border: 1px solid salmon; */
-        margin-right: 510px;
+        margin-right: 500px;
+        padding-left: 100px;
         
     }
     .nav-items-container {
-        width: 600px;
-        padding-right: 12px;
+        width: 100%;
+        padding-left: 20px;
     }
 
     .nav-items-container a{
@@ -586,6 +584,12 @@ nav{
     .follow-us-icons img {
         width: 24px;
         height: 24px;
+    }
+
+    /* header */
+    .header{
+        width: 1200px;
+        margin-left: 80px;
     }
 
     /* online games */
